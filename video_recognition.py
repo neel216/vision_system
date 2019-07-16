@@ -15,8 +15,8 @@ try:
 
 
 except:
-    face_cascade = cv2.CascadeClassifier("haarcascade_face.xml")
-    #eye_cascade = cv2.CascadeClassifier("haarcascade_eye.xml")
+    face_cascade = cv2.CascadeClassifier("./cascade_data/haarcascade_face.xml")
+    #eye_cascade = cv2.CascadeClassifier("./cascade_data/haarcascade_eye.xml")
 
     listy = []
 
